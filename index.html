@@ -1,0 +1,951 @@
+<!-- Assignment (6) - Abdulrahman Zaki -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DevFolio is a Responsive HTML5 Template with necessary pages. It is creative, modern, responsive and built with latest technology."
+    />
+    <meta name="author" content="Abdulrahman Zaki" />
+    <title>DevFolio - Bootstrap Portfolio Template</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <!-- Template Css File -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- Start Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <h1><a class="navbar-brand" href="index.html">DevFolio</a></h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                <li>
+                  <a class="dropdown-item dropdown dropdown-toggle" href="#"
+                    >Deep Drop Down</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link special-p-e" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Home Section -->
+    <section id="home" class="home bg-img position-relative">
+      <div class="overlay"></div>
+      <div
+        class="container d-flex justify-content-center align-items-center vh-100"
+      >
+        <div class="home-content position-absolute text-center">
+          <h1 class="mb-4 text-white font-weight-bold">I am Morgan Freeman</h1>
+          <p class="text-white">
+            <span id="typed-animation"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Start About Section -->
+    <section id="about" class="about sec-pt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-frameII">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="about-img-info-skills">
+                    <div class="row">
+                      <div class="col-md-5 col-sm-6">
+                        <picture class="about-img">
+                          <img
+                            src="images/testimonial-2.jpg"
+                            alt="photo of me"
+                            class="img-fluid rounded"
+                          />
+                        </picture>
+                      </div>
+                      <div class="col-md-7 col-sm-6">
+                        <div class="about-info">
+                          <p><span>Name:</span> Morgan Freeman</p>
+                          <p><span>Profile:</span> full stack developer</p>
+                          <p><span>Email:</span> contact@example.com</p>
+                          <p><span>Phone:</span> (617) 557-0089</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="about-skills">
+                      <h5 class="mt-2 mb-3">Skills</h5>
+                      <span>HTML 85%</span>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                      </div>
+                      <span>CSS 75%</span>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                      </div>
+                      <span>PHP 50%</span>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 50%"></div>
+                      </div>
+                      <span>JAVASCRIPT 90%</span>
+                      <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me">
+                    <div class="sec-heading"><h4>About me</h4></div>
+                    <p class="lead">
+                      Curabitur non nulla sit amet nisl tempus convallis quis ac
+                      lectus. Curabitur arcu erat, accumsan id imperdiet et,
+                      porttitor at sem. Praesent sapien massa, convallis a
+                      pellentesque nec, egestas non nisi. Nulla porttitor
+                      accumsan tincidunt.
+                    </p>
+                    <p class="lead">
+                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                      a. Vivamus suscipit tortor eget felis porttitor volutpat.
+                      Vestibulum ac diam sit amet quam vehicula elementum sed
+                      sit amet dui. porttitor at sem.
+                    </p>
+                    <p class="lead">
+                      Nulla porttitor accumsan tincidunt. Quisque velit nisi,
+                      pretium ut lacinia in, elementum id enim. Nulla porttitor
+                      accumsan tincidunt. Mauris blandit aliquet elit, eget
+                      tincidunt nibh pulvinar a.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Services Section -->
+    <section id="services" class="services pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 main-heading-box text-center">
+            <h3 class="main-heading-h">SERVICES</h3>
+            <p class="main-heading-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-4">
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="srv-content">
+                <h2>WEB DESIGN</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <div class="srv-content">
+                <h2>WEB DEVELOPMENT</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+              <div class="srv-content">
+                <h2>PHOTOGRAPHY</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-solid fa-binoculars"></i>
+              </div>
+              <div class="srv-content">
+                <h2>RESPONSIVE DESIGN</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-regular fa-sun"></i>
+              </div>
+              <div class="srv-content">
+                <h2>GRAPHIC DESIGN</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="srv-box box-shadow-frameI">
+              <div class="srv-icon icon-box">
+                <i class="fa-solid fa-calendar-week"></i>
+              </div>
+              <div class="srv-content">
+                <h2>MARKETING SERVICES</h2>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- Start Statistics Section -->
+    <section class="stats box-shadow-frameI bg-img position-relative">
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="stats-box pt-4 pt-md-0 text-white text-center">
+              <div class="stats-icon icon-box">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="stats-count">
+                <p>450</p>
+                <span class="stats-txt">WORKS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="stats-box pt-4 pt-md-0 text-white text-center">
+              <div class="stats-icon icon-box">
+                <i class="fa-regular fa-newspaper"></i>
+              </div>
+              <div class="stats-count">
+                <p>25</p>
+                <span class="stats-txt">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="stats-box pt-4 pt-md-0 text-white text-center">
+              <div class="stats-icon icon-box">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="stats-count">
+                <p>550</p>
+                <span class="stats-txt">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="stats-box pt-4 pt-md-0 text-white text-center">
+              <div class="stats-icon icon-box">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div class="stats-count">
+                <p>48</p>
+                <span class="stats-txt">AWARD WON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Statistics Section -->
+
+    <!-- Start Portfolio Section -->
+    <section id="work" class="portfolio sec-pt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 main-heading-box text-center">
+            <h3 class="main-heading-h">PORTFOLIO</h3>
+            <p class="main-heading-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="0"
+              >
+                <picture class="work-img">
+                  <img src="images/work-1.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Lorem impsum dolor</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="1"
+              >
+                <picture class="work-img">
+                  <img src="images/work-2.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Loreda Cuno Nere</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="2"
+              >
+                <picture class="work-img">
+                  <img src="images/work-3.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Mavrito Lana Dere</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="3"
+              >
+                <picture class="work-img">
+                  <img src="images/work-4.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Bindo Laro Cado</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="4"
+              >
+                <picture class="work-img">
+                  <img src="images/work-5.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Studio Lena Mado</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box box-shadow-frameI">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#workModal"
+                data-index="5"
+              >
+                <picture class="work-img">
+                  <img src="images/work-6.jpg" alt="" class="img-fluid" />
+                </picture>
+              </a>
+              <div class="work-info">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="work-heading">Studio Big Bang</h2>
+                    <p class="work-txt">
+                      <span class="work-category">Web Design</span> /
+                      <span class="work-date">18 Sep. 2018</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="work-icon d-flex justify-content-end">
+                      <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Modal for Lightbox -->
+    <div
+      class="modal fade"
+      id="workModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="workModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="" class="img-fluid" id="lightboxImage" alt="Work Image" />
+          </div>
+          <!-- You can customize the modal footer as needed -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-secondary" id="prevButton">
+              &lt; Previous
+            </button>
+            <button type="button" class="btn btn-secondary" id="nextButton">
+              Next &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio Section -->
+
+    <!-- Start Reviews Section -->
+    <section class="reviews box-shadow-frameI bg-img position-relative">
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <div class="col-md-12">
+          <div
+            id="reviewsCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- First Slide -->
+              <div class="carousel-item active">
+                <div class="review-box text-white text-center">
+                  <div class="author-box">
+                    <img
+                      src="images/testimonial-2.jpg"
+                      alt=""
+                      class="m-auto rounded-circle"
+                    />
+                    <span class="author text-white">XAVI ALONSO</span>
+                  </div>
+                  <div class="content-box">
+                    <p class="lead">
+                      Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                      at sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Second Slide -->
+              <div class="carousel-item">
+                <div class="review-box text-white text-center">
+                  <div class="author-box">
+                    <img
+                      src="images/testimonial-4.jpg"
+                      alt=""
+                      class="m-auto rounded-circle"
+                    />
+                    <span class="author text-white">MARTA SOCRATE</span>
+                  </div>
+                  <div class="content-box">
+                    <p class="lead">
+                      Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                      at sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination Bullets -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#reviewsCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#reviewsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Reviews Section -->
+
+    <!-- Start Blog Section -->
+    <section id="blog" class="blog sec-pt">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 main-heading-box text-center">
+            <h3 class="main-heading-h">BLOG</h3>
+            <p class="main-heading-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card box-shadow-frameI">
+              <picture class="card-img"
+                ><img src="images/post-1.jpg" alt="" class="img-fluid"
+              /></picture>
+              <div class="card-body position-relative">
+                <div class="card-category position-absolute text-center">
+                  <h6 class="category">TRAVEL</h6>
+                </div>
+                <h3 class="card-title">See more ideas about Travel</h3>
+                <p class="card-text">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="user">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  /><span>Morgan Freeman</span>
+                </div>
+                <div class="date">
+                  <i class="fa-regular fa-clock"></i> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card box-shadow-frameI">
+              <picture class="card-img"
+                ><img src="images/post-2.jpg" alt="" class="img-fluid"
+              /></picture>
+              <div class="card-body position-relative">
+                <div class="card-category position-absolute text-center">
+                  <h6 class="category">WEB DESIGN</h6>
+                </div>
+                <h3 class="card-title">See more ideas about Travel</h3>
+                <p class="card-text">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="user">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  /><span>Morgan Freeman</span>
+                </div>
+                <div class="date">
+                  <i class="fa-regular fa-clock"></i> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card box-shadow-frameI">
+              <picture class="card-img"
+                ><img src="images/post-3.jpg" alt="" class="img-fluid"
+              /></picture>
+              <div class="card-body position-relative">
+                <div class="card-category position-absolute text-center">
+                  <h6 class="category">WEB DESIGN</h6>
+                </div>
+                <h3 class="card-title">See more ideas about Travel</h3>
+                <p class="card-text">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="user">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  /><span>Morgan Freeman</span>
+                </div>
+                <div class="date">
+                  <i class="fa-regular fa-clock"></i> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Section -->
+
+    <!-- Start Contact Section -->
+    <section
+      id="contact"
+      class="contact box-shadow-frameI bg-img position-relative"
+    >
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-box box-shadow-frameII position-relative">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="sec-heading-box">
+                    <h5 class="sec-heading-h">Send Message Us</h5>
+                  </div>
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-control"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          class="form-control"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <input
+                          type="text"
+                          name="subject"
+                          id="subject"
+                          class="form-control"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <textarea
+                          name="msg"
+                          class="form-control"
+                          id="msg"
+                          rows="5"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <div class="sec-heading-box">
+                    <h5 class="sec-heading-h">Get in Touch</h5>
+                  </div>
+                  <div class="contact-info">
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facilis dolorum dolorem soluta quidem expedita aperiam
+                      aliquid at. Totam magni ipsum suscipit amet? Autem nemo
+                      esse laboriosam ratione nobis mollitia inventore?
+                    </p>
+                    <ul class="info-list">
+                      <li class="mb-2">
+                        <i class="fa-solid fa-location-dot"></i> 329 WASHINGTON
+                        ST BOSTON, MA 02108
+                      </li>
+                      <li class="mb-2">
+                        <i class="fa-solid fa-mobile-screen"></i> (617) 557-0089
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        contact@example.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="social-box">
+                    <ul class="d-flex">
+                      <li>
+                        <a href=""
+                          ><span class="icon-box"
+                            ><i class="fa-brands fa-facebook"></i></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href=""
+                          ><span class="icon-box"
+                            ><i class="fa-brands fa-instagram"></i></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href=""
+                          ><span class="icon-box"
+                            ><i class="fa-brands fa-x-twitter"></i></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href=""
+                          ><span class="icon-box"
+                            ><i class="fa-brands fa-linkedin"></i></span
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer -->
+    <footer class="text-center text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright">
+              <p class="mb-2">
+                &copy; Copyright <strong>DevFolio</strong>. All Rights Reserved
+              </p>
+              <p class="mb-0">Assignment (6) - Abdulrahman Zaki</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <script src="scripts/typed.js/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#typed-animation", {
+        strings: ["Designer", "Developer", "Freelancer", "Photographer"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true,
+      });
+      // Gallery
+      $(document).ready(function () {
+        var images = [
+          "https://routeegy.github.io/Devfolio/assets/img/work-1.jpg",
+          "https://routeegy.github.io/Devfolio/assets/img/work-2.jpg",
+          "https://routeegy.github.io/Devfolio/assets/img/work-3.jpg",
+          "https://routeegy.github.io/Devfolio/assets/img/work-4.jpg",
+          "https://routeegy.github.io/Devfolio/assets/img/work-5.jpg",
+          "https://routeegy.github.io/Devfolio/assets/img/work-6.jpg",
+        ];
+
+        var currentIndex = 0;
+
+        // Set the image source when a thumbnail is clicked
+        $('a[data-bs-toggle="modal"]').on("click", function () {
+          currentIndex = parseInt($(this).data("index"));
+          var imageSrc = images[currentIndex];
+          $("#lightboxImage").attr("src", imageSrc);
+        });
+
+        // Handle arrow navigation
+        $("#prevButton").on("click", function () {
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          $("#lightboxImage").attr("src", images[currentIndex]);
+        });
+
+        $("#nextButton").on("click", function () {
+          currentIndex = (currentIndex + 1) % images.length;
+          $("#lightboxImage").attr("src", images[currentIndex]);
+        });
+      });
+    </script>
+  </body>
+</html>
